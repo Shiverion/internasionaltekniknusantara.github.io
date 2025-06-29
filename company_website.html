@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Internasional Teknik Nusantara</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #002c5f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #004080;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+      background-color: #fff;
+    }
+    h2 {
+      color: #004080;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #002c5f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .cta {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin: 40px 0;
+      border-radius: 8px;
+    }
+    .cta button {
+      padding: 10px 20px;
+      background-color: #ffa500;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .cta button:hover {
+      background-color: #e69500;
+    }
+    .testimonials {
+      background-color: #f0f0f0;
+      padding: 40px 20px;
+      margin-top: 40px;
+    }
+    .testimonial {
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    .testimonial span {
+      display: block;
+      margin-top: 5px;
+      font-weight: bold;
+      color: #004080;
+    }
+    .gallery {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      margin: 20px 0;
+    }
+    .gallery img {
+      height: 200px;
+      border-radius: 8px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .wa-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PT Internasional Teknik Nusantara</h1>
+    <p>Lebih dari sekedar membangun</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <div class="container">
+    <section id="tentang">
+      <h2>Tentang Kami</h2>
+      <p>
+        PT Internasional Teknik Nusantara adalah perusahaan kontraktor dan pengadaan barang yang berdedikasi memberikan solusi berkualitas dan terpercaya. Dengan tim berpengalaman dan komitmen tinggi, kami membangun lebih dari sekadar proyek—kami membangun kepercayaan. Kami hadir untuk menjadi mitra andal dalam setiap kebutuhan konstruksi dan pengadaan di Indonesia.
+      </p>
+    </section>
+
+    <section id="layanan">
+      <h2>Layanan Kami</h2>
+      <p><em>Dari desain hingga realisasi, kami hadir untuk memenuhi kebutuhan proyek Anda.</em></p>
+      <ul>
+        <li><strong>Jasa Kontraktor Umum</strong> – Pembangunan gedung, infrastruktur, dan fasilitas industri dengan standar tinggi dan tepat waktu.</li>
+        <li><strong>Pengadaan Barang</strong> – Penyediaan alat, material, dan perlengkapan proyek secara efisien dan terpercaya.</li>
+        <li><strong>Manajemen Proyek</strong> – Perencanaan, pelaksanaan, dan pengawasan proyek secara menyeluruh untuk menjamin mutu dan efisiensi.</li>
+        <li><strong>Konsultasi Teknik</strong> – Dukungan teknis dan solusi terbaik sesuai kebutuhan proyek Anda.</li>
+      </ul>
+    </section>
+
+    <div class="cta">
+      <h2>Siap Mewujudkan Proyek Anda?</h2>
+      <p>Hubungi kami hari ini untuk solusi konstruksi dan pengadaan barang yang terpercaya.</p>
+      <button onclick="window.location.href='#kontak'">Hubungi Kami</button>
+    </div>
+
+    <section class="testimonials" id="testimoni">
+      <h2>Testimoni Klien</h2>
+      <div class="testimonial">
+        "Pelayanan yang profesional dan hasil kerja yang memuaskan. Sangat direkomendasikan!"
+        <span>— Budi Santoso, Project Manager</span>
+      </div>
+      <div class="testimonial">
+        "PT Internasional Teknik Nusantara mampu memberikan solusi cepat dan tepat. Tim mereka solid dan komunikatif."
+        <span>— Anita Rahmawati, Procurement Lead</span>
+      </div>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri Proyek</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300x200?text=Proyek+1" alt="Proyek 1">
+        <img src="https://via.placeholder.com/300x200?text=Proyek+2" alt="Proyek 2">
+        <img src="https://via.placeholder.com/300x200?text=Proyek+3" alt="Proyek 3">
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Hubungi Kami</h2>
+      <p><strong>Email:</strong> pt.internasionaltekniknusantara@gmail.com</p>
+      <p><strong>Telp Kantor:</strong> 0542 - 8708262</p>
+      <p><strong>Alamat Pusat:</strong> Perumahan Kartini Residence Blok J1. No.19, Balikpapan Selatan, Kalimantan Timur 76114</p>
+      <p><strong>Kantor Cabang:</strong> Jl. Gunung Kelud RT 39 No. 7 BSD, Kel. Gunung Elai, Kec. Bontang Utara, Kalimantan Timur 75311</p>
+      <iframe src="https://www.google.com/maps?q=Perumahan+Kartini+Residence+Blok+J1+No.19+Balikpapan+Selatan+Kalimantan+Timur+76114&output=embed"></iframe>
+
+      <form action="https://formsubmit.co/pt.internasionaltekniknusantara@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Nama Anda" required>
+        <input type="email" name="email" placeholder="Email Anda" required>
+        <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+  </div>
+
+  <a class="wa-button" href="https://wa.me/6285236406001" target="_blank">Chat via WhatsApp</a>
+
+  <footer>
+    <p>&copy; 2025 PT Internasional Teknik Nusantara. All rights reserved.</p>
+  </footer>
+</body>
+</html>
